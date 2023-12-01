@@ -1,0 +1,54 @@
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\bin\Debug\Task_School.exe.config
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\bin\Debug\Task_School.exe
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\bin\Debug\Task_School.pdb
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Log_Student.g.cs
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Student or Teacher.g.cs
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\App.g.cs
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School_MarkupCompile.cache
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School_MarkupCompile.lref
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Log_Student.baml
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\MainWindow.baml
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Student or Teacher.baml
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School.g.resources
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School.Properties.Resources.resources
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School.exe
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Task_School.pdb
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Log_Teacher.g.cs
+C:\Users\hp\Desktop\Desktop_Competency\Task_School\Task_School\obj\Debug\Log_Teacher.baml
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\bin\Debug\Task_School.exe.config
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\bin\Debug\Task_School.exe
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\bin\Debug\Task_School.pdb
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\bin\Debug\EntityFramework.dll
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\bin\Debug\EntityFramework.xml
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.AssemblyReference.cache
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.SuggestedBindingRedirects.cache
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Log_Student.g.cs
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Log_Teacher.g.cs
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\MainWindow.g.cs
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\sign up_student .g.cs
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Student or Teacher.g.cs
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\student_page.g.cs
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\App.g.cs
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School_Content.g.cs
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School_MarkupCompile.cache
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School_MarkupCompile.lref
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Log_Student.baml
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Log_Teacher.baml
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\MainWindow.baml
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Student or Teacher.baml
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\sign up_student .baml
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\student_page.baml
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.g.resources
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.Properties.Resources.resources
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.GenerateResource.cache
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.CoreCompileInputs.cache
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.CopyComplete
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.exe
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.pdb

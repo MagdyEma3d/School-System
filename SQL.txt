@@ -1,0 +1,134 @@
+create table student(
+ID int not null primary key ,
+Name varchar(50)not null,
+Gender varchar(10) null,
+Address varchar(20)not null,
+PhoneNumber int not null,
+Email varchar(50)not null,
+Teacher_ID int,
+EnrollmentDate date,
+Class varchar(50),
+Course varchar(50),
+Grade varchar(10),
+);
+						-----------------------------------
+
+insert into student(ID,Name,Gender,Address,PhoneNumber,Email,Teacher_ID,EnrollmentDate,Class,Course,Grade) 
+values 
+(101, 'John','Male', '123 Main St, City', 123-456-7890, 'john.doe@email.com',1,'2023-09-01','Math A','Mathematics','A') ,
+(201, 'Jane','Female', '456 Elm St, Town', 987-654-3210,'jane.smith@email.com',2,'2023-09-02','English','Computer Science','B') ,
+(301, 'Emily','Female', '789 Oak St, Village', 555-123-4567, 'emily.johnson@email.com',3,'2023-09-03','Arabic','Computer Science','A') ,
+(401, 'Michael','Male', '987 Pine St, Town', 555-987-6543, 'michael.brown@email.com',4,'2023-09-04','Physics','Physics','B') ,
+(501, 'Emma', 'Female', '321 Cedar St, City', 555-555-5555, 'emma.wilson@email.com',5,'2023-09-05','History','History','A+'),
+(502, 'Emma','Female', '321 Cedar St, City', 555-555-5555, 'emma.wilson@email.com',6,'2023-09-06','Music','Music','B+'),
+(202, 'Jane', 'Female', '456 Elm St, Town', 987-654-3210,'jane.smith@email.com',7,'2023-09-07','Music','Music','A') ,
+(203, 'Jane','Female', '456 Elm St, Town', 987-654-3210,'jane.smith@email.com',8,'2023-09-08','Art','Art','C') ,
+(107, 'John', 'Male', '123 Main St, City', 123-456-7890, 'john.doe@email.com',9,'2023-09-09','Arabic','English','A+') ,
+(108, 'John', 'Male', '123 Main St, City', 123-456-7890, 'john.doe@email.com',10,'2023-09-10','Drama','Drama','C+') ,
+(402, 'Michael','Male', '987 Pine St, Town', 555-987-6543, 'michael.brown@email.com',11,'2023-09-11','Mathematics','Mathematics','A+') ,
+(407, 'Michael','Male', '987 Pine St, Town', 555-987-6543, 'michael.brown@email.com',12,'2023-09-12','English','Art','C-') ,
+(409, 'Michael','Male', '987 Pine St, Town', 555-987-6543, 'michael.brown@email.com',13,'2023-09-13','SD','SD','A+') ,
+(404, 'Michael', 'Male', '987 Pine St, Town', 555-987-6543, 'michael.brown@email.com',14,'2023-09-14','DataBase','DataBase','C+') ,
+(307, 'Emily','Female', '789 Oak St, Village', 555-123-4567, 'emily.johnson@email.com',15,'2023-09-15','English','English','B+') ,
+(309, 'Emily','Female', '789 Oak St, Village', 555-123-4567, 'emily.johnson@email.com',16,'2023-09-16','SD','SD','C-') ,
+(305, 'Emily','Female', '789 Oak St, Village', 555-123-4567, 'emily.johnson@email.com',17,'2023-09-17','History','History','A-') ,
+(3077, 'Emily','Female', '789 Oak St, Village', 555-123-4567, 'emily.johnson@email.com',18,'2023-09-17','Drama','Drama','A+') ,
+(3088, 'Emily','Female', '789 Oak St, Village', 555-123-4567, 'emily.johnson@email.com',19,'2023-09-04','Computer Sciences','Conputer Sciences','C') ,
+(3099, 'Emily','Female', '789 Oak St, Village', 555-123-4567, 'emily.johnson@email.com',20,'2023-09-20','Design','Design','A+') 
+
+
+create table teacher(
+ID int not null primary key,
+Name varchar(20) not null,
+Gender varchar(10) null,
+Address varchar(20)not null,
+PhoneNumber int not null,
+EmaiL varchar(50)not null,
+Stu_ID int ,
+CourseName varchar(50),
+ClassName varchar(50),
+EnrollmentDate date,
+Grade varchar(10)
+);
+
+
+insert into teacher
+values
+(1,'Jessica','Female','555 Maple St', 011455882, 'jessica.anderson@email.com',21,'c#','class1','2022-5-5','A') ,
+(2,'Christopher', 'Male', '777 Oak St',014555, 'christopher.lee@email.com',22,'database','class2','2023-3-4','B') ,
+(3,'Stephanie', 'Female','888 Elm St', 012554, 'stephanie.garcia@email.com',23,'software','class3','1986-08-12','C' ) ,
+(4,'Andrew', 'Male','999 Pine St',  0178888,'andrew.martinez@email.com',24,'java','class4','1980-02-08', 'A' ) ,
+(5,'Amanda', 'Female','222 Cedar St', 0109900,'amanda.taylor@email.com',25,'c++','Wh1','1984-07-17','A' ),
+(6,'Jessica', 'Female', '555 Maple St',011222,'jessica.anderson@email.com',26,'C','wh2','1983-04-25','C') ,
+(7,'Christopher', 'Male',  '777 Oak St, Town',014444,'christopher.lee@email.com',27,'C#','wh2','1979-11-03','B' ) ,
+(8,'Stephanie', 'Female','888 Elm St, Village',011566,'stephanie.garcia@email.com',28,'C','wh3', '1986-08-12','B'  ) ,
+(9,'Andrew',  'Male','999 Pine St, City',012788, 'andrew.martinez@email.com',29,'java','class1','1980-02-08','A') ,
+(10,'Amanda', 'Female','222 Cedar St, Town',0111900,  'amanda.taylor@email.com',30,'software','class4', '1984-07-17','A'),
+(11,'magdy',  'Female', '222 Cedar St, Town',01000, 'amanda.taylor@email.com',31,'desktop','wh1','1984-07-17','C' ),
+(12,'magdy', 'Female','222 Cedar St, Town',  010000, 'amanda.taylor@email.com',32,'desktop','wh2','1984-07-17','C'  ),
+(13,'magdy', 'Female','222 Cedar St, Town', 011800,   'amanda.taylor@email.com',33,'software','wh3', '1984-07-17','C'),
+(14,'magdy', 'Female',  '222 Cedar St, Town', 011000,'amanda.taylor@email.com',34,'C#','wh3','1984-07-17','A'),
+(15,'yousef','Female',  '222 Cedar St, Town', 012000,'amanda.taylor@email.com',35,'C++','wh2','1984-07-17','A'),
+(16,'magdy', 'Female', '222 Cedar St, Town', 01400,'amanda.taylor@email.com',36,'C','wh1','1984-07-17','B'),
+(17,'ahmed', 'Female', '222 Cedar St, Town',011500,'amanda.taylor@email.com',37,'C','wh4','1984-07-17','A' ),
+(18,'magdy', 'Female', '222 Cedar St, Town',015800, 'amanda.taylor@email.com',38,'C++','wh4','1984-07-17','B'),
+(19,'mostafa','Female','222 Cedar St, Town',011470, 'amanda.taylor@email.com',39,'database','wh1', '1984-07-17','B');
+-------------------------------------------------------------------------------------------------------------------
+
+Create table Student_login(
+ID varchar(20) primary key,
+Password varchar(20)
+);
+insert into Student_login
+values
+('101','password'),
+('201','password'),
+('301','password'),
+('401','password'),
+('501','password'),
+('502','password'),
+('202','password'),
+('203','password'),
+('107','password'),
+('108','password'),
+('402','password'),
+('407','password'),
+('409','password'),
+('404','password'),
+('307','password'),
+('309','password'),
+('305','password'),
+('3077','password'),
+('3088','password'),
+('3099','password')
+-------------------------------------------------------------------------
+create table Teacher_login(
+ID varchar(30) primary key,
+password varchar(30)
+);
+insert into Teacher_login
+values
+('1','Admin'),
+('2','Admin'),
+('3','Admin'),
+('4','Admin'),
+('5','Admin'),
+('6','Admin'),
+('7','Admin'),
+('8','Admin'),
+('9','Admin'),
+('10','Admin'),
+('11','Admin'),
+('12','Admin'),
+('13','Admin'),
+('14','Admin'),
+('15','Admin'),
+('16','Admin'),
+('17','Admin'),
+('18','Admin'),
+('19','Admin'),
+('20','Admin')
+
+
+
+

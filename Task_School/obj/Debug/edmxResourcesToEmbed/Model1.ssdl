@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="student">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Gender" Type="varchar" MaxLength="10" />
+    <Property Name="Address" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PhoneNumber" Type="int" Nullable="false" />
+    <Property Name="Email" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Teacher_ID" Type="int" />
+    <Property Name="EnrollmentDate" Type="date" />
+    <Property Name="Class" Type="varchar" MaxLength="50" />
+    <Property Name="Course" Type="varchar" MaxLength="50" />
+    <Property Name="Grade" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Student_login">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Password" Type="varchar" MaxLength="20" />
+  </EntityType>
+  <EntityType Name="teacher">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="int" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="Gender" Type="varchar" MaxLength="10" />
+    <Property Name="Address" Type="varchar" MaxLength="20" Nullable="false" />
+    <Property Name="PhoneNumber" Type="int" Nullable="false" />
+    <Property Name="EmaiL" Type="varchar" MaxLength="50" Nullable="false" />
+    <Property Name="Stu_ID" Type="int" />
+    <Property Name="CourseName" Type="varchar" MaxLength="50" />
+    <Property Name="ClassName" Type="varchar" MaxLength="50" />
+    <Property Name="EnrollmentDate" Type="date" />
+    <Property Name="Grade" Type="varchar" MaxLength="10" />
+  </EntityType>
+  <EntityType Name="Teacher_login">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="password" Type="varchar" MaxLength="30" />
+  </EntityType>
+  <EntityContainer Name="ModelStoreContainer">
+    <EntitySet Name="student" EntityType="Self.student" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Student_login" EntityType="Self.Student_login" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="teacher" EntityType="Self.teacher" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Teacher_login" EntityType="Self.Teacher_login" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

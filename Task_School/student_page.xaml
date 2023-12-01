@@ -1,0 +1,18 @@
+﻿<Page x:Class="Task_School.student_page"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:Task_School"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="student_page" Background="White">
+
+    <Grid>
+        <Label Content="Welcome Student" HorizontalAlignment="Left" Margin="154,23,0,0" VerticalAlignment="Top" Width="411" Height="63" HorizontalContentAlignment="Center" FontSize="30" Foreground="#FF016BE0" Background="#FF2F1919"/>
+        <DataGrid x:Name="datagrid"  Margin="10,102,159,150"/>
+        <Button Content="Search" HorizontalAlignment="Left" Margin="10,320,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Width="224" Height="65" FontSize="30" FontFamily="Arial Black" Foreground="#FF4748A5" Click="Button_Click"/>
+        <TextBox x:Name="text_search" HorizontalAlignment="Center" Margin="0,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="232" Height="65"/>
+
+    </Grid>
+</Page>
