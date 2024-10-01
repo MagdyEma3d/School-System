@@ -47,5 +47,11 @@ namespace Task_School
             sign_up_student sign_Up_Student = new sign_up_student();
             this.NavigationService.Navigate(sign_Up_Student);
         }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            forgitten_password forgitten_Password= new forgitten_password();
+            this.NavigationService.Navigate(forgitten_Password);
+        }
     }
 }

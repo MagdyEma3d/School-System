@@ -23,6 +23,7 @@
         <TextBox x:Name="text_student2" HorizontalAlignment="Left" Margin="228,19,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="234" Height="38" Grid.Row="2"/>
         <Button Content="Login" HorizontalAlignment="Left" Margin="259,24,0,9" Width="141" FontSize="20" FontFamily="Cascadia Code SemiBold" Foreground="#FF004906" Click="Button_Click" Grid.Row="3"/>
         <Button Content="Sign Up" HorizontalAlignment="Left" Margin="188,10,0,0" VerticalAlignment="Top" Width="314" Height="57" FontSize="20" FontFamily="Cascadia Code" Foreground="#FF590A24" Grid.Row="4" Click="Button_Click_1"/>
+        <Button Content="Forgitten password" HorizontalAlignment="Left" Margin="166,99,0,0" Grid.Row="4" VerticalAlignment="Top" Width="336" Height="46" Click="Button_Click_2"/>
 
     </Grid>
 </Page>

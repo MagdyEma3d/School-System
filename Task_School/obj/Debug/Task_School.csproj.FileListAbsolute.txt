@@ -52,3 +52,5 @@ C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_Sc
 C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.csproj.CopyComplete
 C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.exe
 C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\Task_School.pdb
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\forgitten password.g.cs
+C:\Users\hp\Desktop\Desktop Competency\Task_School\Task_School\obj\Debug\forgitten password.baml

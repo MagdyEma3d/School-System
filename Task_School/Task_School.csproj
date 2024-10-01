@@ -64,6 +64,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="forgitten password.xaml.cs">
+      <DependentUpon>forgitten password.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Log_Student.xaml.cs">
       <DependentUpon>Log_Student.xaml</DependentUpon>
     </Compile>
@@ -106,6 +109,10 @@
     <Compile Include="Teacher_login.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Page Include="forgitten password.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Log_Student.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

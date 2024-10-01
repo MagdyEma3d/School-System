@@ -47,5 +47,10 @@ namespace Task_School
                 MessageBox.Show("user name is already exist");
             }
         }
+
+        private void textbox2_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

@@ -26,7 +26,7 @@
         <Label Content="Password" HorizontalAlignment="Left" Margin="153,0,0,52" Grid.Row="2" RenderTransformOrigin="0.008,0.197" Width="60" Height="26" VerticalAlignment="Bottom"/>
         <TextBox x:Name="textbox1" Margin="274,0,270,11" TextWrapping="Wrap" VerticalContentAlignment="Center" Height="28" VerticalAlignment="Bottom"/>
         <Label Content="ID" HorizontalAlignment="Left" Margin="274,0,0,45" RenderTransformOrigin="0.008,0.197" Width="60" Height="26" VerticalAlignment="Bottom"/>
-        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Margin="214,45,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" Height="23"/>
+        <TextBox x:Name="textbox2" HorizontalAlignment="Left" Margin="214,45,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="239" Height="23" TextChanged="textbox2_TextChanged"/>
         
     </Grid>
 </Page>
