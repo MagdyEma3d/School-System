@@ -29,6 +29,15 @@ namespace Task_School
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+                    if (string.IsNullOrWhiteSpace(text_student1.Text) ||
+    string.IsNullOrWhiteSpace(text_student2.Text))
+            {
+                MessageBox.Show("Please enter both your ID and password.",
+                                "Missing Information",
+                                MessageBoxButton.OK,
+                                MessageBoxImage.Warning);
+                return;
+            }
             var emp = pop.Student_login.FirstOrDefault(x => x.ID == text_student1.Text&& x.Password==text_student2.Text);
             if (emp != null)
             {
